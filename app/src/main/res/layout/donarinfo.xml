@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/donarLayout"
+    android:visibility="invisible">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#630000"
+        android:layout_margin="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter your Name"
+            android:padding="5dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Area"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Birth year"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Weight"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Age"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Blood Group (ex: A+/B-)"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Contact (ex: 01...)"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Donate date (ex: dd/mm/yy)"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:background="#C60000"
+                android:textColor="#FFFFFF"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cencel"
+                android:id="@+id/cencelDonar"
+                android:background="#C60000"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</ScrollView>
+</LinearLayout>

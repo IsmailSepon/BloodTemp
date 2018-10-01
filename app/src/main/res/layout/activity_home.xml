@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="#C60000"
+
+    >
+
+    <include layout="@layout/post"/>
+    <include layout="@layout/donarinfo"/>
+        <android.support.v7.widget.CardView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#740707"
+            android:outlineProvider="background"
+            android:orientation="vertical"
+            android:id="@+id/home">
+
+            <!-- put whatever you want -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="3">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:text="@string/font_awesome_bell"
+                    android:textSize="50dp"
+                    android:id="@+id/notice_go_btn"/>
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:text="@string/font_awesome_search"
+                    android:textSize="50dp"
+                    android:id="@+id/search_go_btn"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:text="Post"
+                    android:textSize="10dp"
+                    android:id="@+id/postId"
+                    />
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:text="Dash Board"
+                    android:textSize="10dp"
+                    android:id="@+id/dash"
+                    />
+
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp">
+                    <Button
+                        android:layout_width="140dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="-13dp"
+                        android:text="Add Donar"
+                        android:textSize="10dp"
+                        android:id="@+id/addDonar"
+                        />
+                    <Button
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:text="@string/font_awesome_info"
+                        android:textSize="50dp"
+                        android:id="@+id/info"
+
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+</android.support.constraint.ConstraintLayout>

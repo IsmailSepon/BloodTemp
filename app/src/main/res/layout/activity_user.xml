@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity"
+    android:background="#970002">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#630000"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter your name"
+            android:id="@+id/userName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Contact Number"
+            android:id="@+id/userContact"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            />
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:hint="Enter "-->
+            <!--android:id="@+id/userBloodGroup"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:textColorHint="#FFFFFF"-->
+            <!--/>-->
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:spinnerMode="dialog">
+
+        </android.support.v7.widget.AppCompatSpinner>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="#C60000"
+            android:textColor="#FFFFFF"
+            android:id="@+id/userReg"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

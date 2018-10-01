@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C60000"
+    tools:context=".PostActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="#fff"
+            android:text="Your Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffff"
+            android:hint="location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--<TextView-->
+            <!--android:textColor="#fff"-->
+            <!--android:text="Blood Group"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/group"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="#ffff"-->
+            <!--android:hint="Group"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <TextView
+            android:textColor="#fff"
+            android:text="Contact Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/contactnumber"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffff"
+            android:hint="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_marginTop="10dp"
+            android:id="@+id/category2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:spinnerMode="dialog">
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+        <Button
+            android:id="@+id/postbtn"
+            android:text="POST"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

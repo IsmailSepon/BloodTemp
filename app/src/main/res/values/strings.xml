@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BloodTemp</string>
+    <string name="font_awesome_android_icon">&#xf17b;</string>
+    <string name="font_awesome_area_chart_icon">&#xf1fe;</string>
+    <string name="font_awesome_cubes_icon">&#xf1b3;</string>
+    <string name="font_awesome_mobile_phone_icon">&#xf10b;</string>
+    <string name="font_awesome_search">&#xf002;</string>
+    <string name="font_awesome_post">&#xf682;</string>
+    <string name="font_awesome_donar">&#xf234;</string>
+    <string name="font_awesome_bell">&#xf0f3;</string>
+    <string name="font_awesome_desh">&#xf1ea;</string>
+    <string name="font_awesome_info">&#xf05a;</string>
+
+</resources>
